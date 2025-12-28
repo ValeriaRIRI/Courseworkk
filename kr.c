@@ -18,6 +18,7 @@ double derivative(double x, double h);
 int log_error(const char* message);
 int open_log();
 
+//меню реализации программы
 int main() {
 	setlocale(LC_ALL, "RUS");
 	printf("\t\tПрограмма для работы с кусочно-заданной функцией\n");
@@ -276,6 +277,7 @@ int log_error(const char* message) {
 	printf("ОШИБКА: %s\n", message);
 	return 0;
 }
+
 
 
 
